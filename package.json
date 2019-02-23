@@ -1,0 +1,31 @@
+{
+  "name": "types-moonsharp",
+  "version": "0.0.1",
+  "description": "Typescript definitions for the Moonsharp lua interpreter ",
+  "keywords": [
+    "moonsharp",
+    "typescript",
+    "tstl",
+    "lua"
+  ],
+  "repository": "https://github.com/tts-community/types-moonsharp",
+  "license": "MIT",
+  "author": "tts-community",
+  "files": [
+    "types"
+  ],
+  "types": "types",
+  "scripts": {
+    "lint": "prettier --check **/.*.yml **/*.{ts,yml,md}"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "proseWrap": "always",
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "types-lua": "https://github.com/ark120202/types-lua"
+  }
+}
