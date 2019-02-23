@@ -24,8 +24,10 @@
     "singleQuote": true,
     "trailingComma": "all"
   },
-  "devDependencies": {
-    "prettier": "^1.16.4",
+  "dependencies": {
     "types-lua": "https://github.com/ark120202/types-lua"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
   }
 }
