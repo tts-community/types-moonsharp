@@ -15,7 +15,7 @@ npm install -D https://github.com/tts-community/types-moonsharp
 yarn add -D @types/moonsharp
 ```
 
-2. Configure typescript
+2. Configure `tsconfig.json`
 
 > Typescript will not automatically load typescript definitions unless they are a `@types` module
 
